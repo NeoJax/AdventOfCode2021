@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode2021.PuzzleCode
 {
-    public static class Day1
+    public class Day1
     {
         public static int Puzzle1(List<int> depths)
         {

@@ -9,12 +9,20 @@ namespace AdventOfCode2021
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Day 1 \nPuzzle 1");
             List<int> day1Test1 = ChangeListToInt(ReadText("Day1Test1"));
             List<int> day1Puzzle1 = ChangeListToInt(ReadText("Day1Puzzle1"));
             Console.WriteLine(Day1.Puzzle1(day1Test1));
             Console.WriteLine(Day1.Puzzle1(day1Puzzle1));
+            Console.WriteLine("\nPuzzle 2");
             Console.WriteLine(Day1.Puzzle2(day1Test1));
             Console.WriteLine(Day1.Puzzle2(day1Puzzle1));
+            Console.WriteLine("\nDay 2 \nPuzzle 3");
+            Console.WriteLine(Day2.CalculateFinalPosition(ReadText("Day2Test1")));
+            Console.WriteLine(Day2.CalculateFinalPosition(ReadText("Day2Puzzle1")));
+            Console.WriteLine("\nPuzzle 4");
+            Console.WriteLine(Day2.CalculateActualFinalPosition(ReadText("Day2Test1")));
+            Console.WriteLine(Day2.CalculateActualFinalPosition(ReadText("Day2Puzzle1")));
         }
 
         public static List<string> ReadText(string puzzlePath)
