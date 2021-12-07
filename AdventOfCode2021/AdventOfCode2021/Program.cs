@@ -29,6 +29,12 @@ namespace AdventOfCode2021
             Console.WriteLine("\nPuzzle 6");
             Console.WriteLine(Day3.TrueDiagnosticReport(ReadText("Day3Test")));
             Console.WriteLine(Day3.TrueDiagnosticReport(ReadText("Day3Puzzle")));
+            Console.WriteLine("\nDay 4 \nPuzzle 7");
+            Console.WriteLine(Day4.BoardSetup(ReadText("Day4Test")));
+            Console.WriteLine(Day4.BoardSetup(ReadText("Day4Puzzle")));
+            Console.WriteLine("\nPuzzle 8");
+            Console.WriteLine(Day4.CheckForLastBoard(ReadText("Day4Test")));
+            Console.WriteLine(Day4.CheckForLastBoard(ReadText("Day4Puzzle")));
         }
 
         public static List<string> ReadText(string puzzlePath)
