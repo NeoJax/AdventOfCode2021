@@ -35,6 +35,18 @@ namespace AdventOfCode2021
             Console.WriteLine("\nPuzzle 8");
             Console.WriteLine(Day4.CheckForLastBoard(ReadText("Day4Test")));
             Console.WriteLine(Day4.CheckForLastBoard(ReadText("Day4Puzzle")));
+            Console.WriteLine("\nDay 5 \nPuzzle 9");
+            Console.WriteLine(Day5.CalculateVentOverlap(ReadText("Day5Test")));
+            Console.WriteLine(Day5.CalculateVentOverlap(ReadText("Day5Puzzle")));
+            Console.WriteLine("\nPuzzle 10");
+            Console.WriteLine(Day5.CalculateVentOverlapFull(ReadText("Day5Test")));
+            Console.WriteLine(Day5.CalculateVentOverlapFull(ReadText("Day5Puzzle")));
+            Console.WriteLine("\nDay 6 \nPuzzle 11");
+            Console.WriteLine(Day5.CalculateVentOverlap(ReadText("Day5Test")));
+            Console.WriteLine(Day5.CalculateVentOverlap(ReadText("Day5Puzzle")));
+            Console.WriteLine("\nPuzzle 12");
+            Console.WriteLine(Day5.CalculateVentOverlapFull(ReadText("Day5Test")));
+            Console.WriteLine(Day5.CalculateVentOverlapFull(ReadText("Day5Puzzle")));
         }
 
         public static List<string> ReadText(string puzzlePath)
