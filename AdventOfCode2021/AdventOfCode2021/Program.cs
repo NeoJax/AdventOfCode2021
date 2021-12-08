@@ -47,6 +47,12 @@ namespace AdventOfCode2021
             Console.WriteLine("\nPuzzle 12");
             Console.WriteLine(Day6.CountLanternsEfficient(ReadText("Day6Test")));
             Console.WriteLine(Day6.CountLanternsEfficient(ReadText("Day6Puzzle")));
+            Console.WriteLine("\nDay 7 \nPuzzle 13");
+            Console.WriteLine(Day7.CalculateCrabSubs(ReadText("Day7Test")));
+            Console.WriteLine(Day7.CalculateCrabSubs(ReadText("Day7Puzzle")));
+            Console.WriteLine("\nPuzzle 14");
+            Console.WriteLine(Day7.CalculateCrabSubsCorrectly(ReadText("Day7Test")));
+            Console.WriteLine(Day7.CalculateCrabSubsCorrectly(ReadText("Day7Puzzle")));
         }
 
         public static List<string> ReadText(string puzzlePath)
