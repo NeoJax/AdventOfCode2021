@@ -65,6 +65,12 @@ namespace AdventOfCode2021
             Console.WriteLine("\nPuzzle 18");
             Console.WriteLine(Day9.FindBasins(ReadText("Day9Test")));
             Console.WriteLine(Day9.FindBasins(ReadText("Day9Puzzle")));
+            Console.WriteLine("\nDay 10 \nPuzzle 19");
+            Console.WriteLine(Day10.BracketsUponBrackets(ReadText("Day10Test")));
+            Console.WriteLine(Day10.BracketsUponBrackets(ReadText("Day10Puzzle")));
+            Console.WriteLine("\nPuzzle 20");
+            Console.WriteLine(Day10.IncompleteBrackets(ReadText("Day10Test")));
+            Console.WriteLine(Day10.IncompleteBrackets(ReadText("Day10Puzzle")));
         }
 
         public static List<string> ReadText(string puzzlePath)
