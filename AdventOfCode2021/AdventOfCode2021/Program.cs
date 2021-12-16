@@ -71,6 +71,18 @@ namespace AdventOfCode2021
             Console.WriteLine("\nPuzzle 20");
             Console.WriteLine(Day10.IncompleteBrackets(ReadText("Day10Test")));
             Console.WriteLine(Day10.IncompleteBrackets(ReadText("Day10Puzzle")));
+            Console.WriteLine("\nDay 11 \nPuzzle 21");
+            Console.WriteLine(Day11.OctopusLights(ReadText("Day11Test")));
+            Console.WriteLine(Day11.OctopusLights(ReadText("Day11Puzzle")));
+            Console.WriteLine("\nPuzzle 22");
+            Console.WriteLine(Day11.OctopusLightsSync(ReadText("Day11Test")));
+            Console.WriteLine(Day11.OctopusLightsSync(ReadText("Day11Puzzle")));
+            //Console.WriteLine("\nDay 12 \nPuzzle 23");
+            //Console.WriteLine(Day11.OctopusLights(ReadText("Day12Test")));
+            //Console.WriteLine(Day11.OctopusLights(ReadText("Day12Puzzle")));
+            //Console.WriteLine("\nPuzzle 24");
+            //Console.WriteLine(Day11.OctopusLightsSync(ReadText("Day11Test")));
+            //Console.WriteLine(Day11.OctopusLightsSync(ReadText("Day11Puzzle")));
         }
 
         public static List<string> ReadText(string puzzlePath)
